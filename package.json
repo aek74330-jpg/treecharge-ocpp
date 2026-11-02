@@ -1,0 +1,11 @@
+{
+  "name": "treecharge-ocpp",
+  "version": "1.0.0",
+  "description": "TREE CHARGE OCPP 1.6J central system (chargers ⇄ Google Apps Script app)",
+  "main": "server.js",
+  "scripts": { "start": "node server.js", "sim": "node tools/sim.js" },
+  "license": "UNLICENSED",
+  "private": true,
+  "engines": { "node": ">=18" },
+  "dependencies": { "ws": "8.21.3" }
+}
